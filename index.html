@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style8.css">
+</head>
+
+<body>
+    <div class="navigation">
+        <nav>
+            <a href="#"><img src="./Assets/atom-svgrepo-com.svg" alt=""></a>
+            <a href="#" target="_blank">HOME</a>
+            <a href="#">LAPTOPS</a>
+            <a href="#">GEARS</a>
+            <a href="#">PARTS</a>
+            <a href="#">SUPPORT</a>
+            <a href="#" id="search"><img src="./Assets/search-alt-2-svgrepo-com.svg" alt=""></a>
+            <a href="#" id="cart"><img src="./Assets/cart-4-svgrepo-com.svg" alt=""></a>
+            <a href="#" id="user"><img src="./Assets/user-alt-1-svgrepo-com.svg" alt=""></a>
+        </nav>
+        <!--  -->
+        <!--  -->
+    </div>
+    <div class="big-container">
+        <div class="container">
+            <!--  -->
+            <!--  -->
+            <div class="sub-container-left">
+                <div class="path">
+                    <a href="#" target="_self">
+                        HOME
+                    </a>
+                    <span>&nbsp;>&nbsp;</span>
+                    <a href="#" target="_self">
+                        CART
+                    </a>
+                </div>
+                <h2>
+                    Quantity: <span id="Quantity">0</span>
+                </h2>
+                <div class="cart-items">
+                    <div class="cart-descriptions">
+                        <h3 id="Cart-items">Empty</h3>
+                        <p>Order your first product now</p>
+                    </div>
+                </div>
+                <br>
+                <hr>
+                <br>
+                <div class="coupon-code">
+                    <input type="text" name="text" id="text" placeholder="Discount coupon">
+                    <button type="submit">APPLY</button>
+                </div>
+                <div class="total-info">
+                    <div class="sub-total">
+                        <p>Subtotal</p>
+                        <p id="sub-total">$0.00</p>
+                    </div>
+                    <div class="discount">
+                        <p>Discount</p>
+                        <p id="discount-price">0%</p>
+                    </div>
+                    <div class="shipping">
+                        <p>Shipping / Delivery</p>
+                        <span id="Shipping">-</span>
+                    </div>
+                    <div class="total">
+                        <h3>Total</h3>
+                        <h3>
+                            <span style="font-size: 16px; color: rgba(0, 0, 0, 0.75);">
+                                USD
+                            </span>
+                            $0.00
+                        </h3>
+                    </div>
+                </div>
+                <div class="paynow">
+                    <form action="">
+                        <button type="submit">
+                            PAY NOW
+                        </button>
+                    </form>
+                </div>
+                <div class="shipping-icon">
+                    <p>Your order, safe from cart to door</p>
+                    <img height="50px" src="./Assets/dhl.png" alt="">
+                    <img height="25px" src="./Assets/fedex.png" alt="">
+                </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="sub-container-right">
+                <h2>Express Checkout</h2>
+                <div class="payment-method">
+                    <div class="debit-card">
+                        <a href="#">
+                            <img width="90px" src="./Assets/payment-card-svgrepo-com.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="g-pay">
+                        <a href="#">
+                            <img width="90px" src="./Assets/google-pay_2.png" alt="">
+                        </a>
+                    </div>
+                    <div class="paypal">
+                        <a href="#">
+                            <img width="90px" src="./Assets/paypal.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <p>Contact Information</\p>
+                <div class="input-boxes">
+                    <!--  -->
+                    <div class="order-name">
+                        <input type="text" name="first-name" id="first-name" placeholder="First name" required>
+                        <input type="text" name="last-name" id="last-name" placeholder="Last name" required>
+                    </div>
+                    <div class="region">
+                        <input type="text" name="region" id="region" placeholder="Region / Country" required>
+                    </div>
+                    <div class="email-address">
+                        <input type="email" name="email" id="email-address" placeholder="Email address / Phone number"
+                            required>
+                    </div>
+                    <div class="city">
+                        <input type="text" name="city" id="city" placeholder="City" required>
+                        <input type="text" name="province" id="province" placeholder="State / Province" required>
+                    </div>
+                    <div class="postal-code">
+                        <input type="text" name="postal-code" id="postal-code" placeholder="Postal code" minlength="8"
+                            maxlength="12" required>
+                    </div>
+                    <!--  -->
+                    <div class="check-one">
+                        <input type="checkbox" name="remember-me" id="remember-me">
+                        <p>Remember me</p>
+                    </div>
+                    <!--  -->
+                    <div class="card-num">
+                        <input type="number" name="card-number" id="card-number" placeholder="Card number"
+                            minlength="12" maxlength="12" required>
+                        <div class="payment-icon">
+                            <img src="/Assets/visa.png" alt="">
+                            <img src="/Assets/MasterCard_icon.png" alt="">
+                        </div>
+                    </div>
+                    <div class="date-cvc">
+                        <input type="datetime" name="mm-yy" id="mm-yy" placeholder="MM / YY" required>
+                        <input type="number" name="cvc" id="cvc" placeholder="CVC" required>
+                    </div>
+                    <!--  -->
+                    <div class="check-two">
+                        <input type="checkbox" name="secure-pay" id="secure-pay">
+                        <p>Secure save payment details for future use</p>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </div>
+    </div>
+    <div class="sub-container-three">
+        <a href="#">F.A.Q</a>
+        <a href="#">Customer Service</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Refund Policy</a>
+    </div>
+</body>
+
+</html>

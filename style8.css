@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F8F8F8;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Navigation */
+/* Relocate navigation btn */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    padding: 30px 0px;
+}
+
+/* Text in navigation */
+nav a {
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.1s ease 0s;
+}
+
+/* Applied transition */
+nav a:hover {
+    transform: translateY(-5px);
+    text-decoration: underline;
+}
+
+/* Logo */
+nav a img {
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 100px;
+    padding: 3px;
+}
+
+/*  */
+/*  */
+/* Hold the container */
+.big-container {
+    display: flex;
+}
+
+/* Hold Left-Right Containers */
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* Header - greet */
+.sub-container-one {
+    display: flex;
+    justify-content: center;
+}
+
+/* Left-container */
+.sub-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    /* padding: 0px 32px; */
+}
+
+.path a {
+    color: black;
+}
+
+.cart-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.coupon-code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coupon-code input {
+    height: 44px;
+    width: 65%;
+}
+
+/* .coupon-code #text */
+#text {
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 12px;
+    background-color: #F8F8F8;
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.coupon-code button {
+    width: 30%;
+    height: 48px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/*  */
+.total-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.sub-total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.discount {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*  */
+.paynow button {
+    width: 100%;
+    height: 48px;
+    border-radius: 5px;
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/* shipping-icon */
+.shipping-icon {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+
+/*  */
+/* Container-right */
+.sub-container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 550px;
+}
+
+.payment-method {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.debit-card img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 28px 40px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.g-pay img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 28px 40px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.g-pay:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.paypal img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 28px 40px;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.paypal:hover {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/* Input boxes */
+.input-boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.input-boxes input {
+    height: 44px;
+}
+
+/* Order-name */
+.order-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+#first-name {
+    width: 46%;
+}
+
+#last-name {
+    width: 46%;
+}
+
+/* region */
+.region {
+    display: flex;
+}
+
+#region {
+    width: 100%;
+}
+
+/* email-address */
+.email-address {
+    display: flex;
+}
+
+#email-address {
+    width: 100%;
+}
+
+/* city */
+.city {
+    display: flex;
+    justify-content: space-between;
+}
+
+#city {
+    width: 46%;
+}
+
+#province {
+    width: 46%;
+}
+
+/* postal-code */
+.postal-code {
+    display: flex;
+}
+
+#postal-code {
+    width: 100%;
+}
+
+/* checkbox-one */
+.check-one {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/* card-num */
+.card-num {
+    display: flex;
+    position: relative;
+}
+
+#card-number {
+    width: 100%;
+}
+
+.payment-icon {
+    display: flex;
+    position: absolute;
+    gap: 12px;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.payment-icon img {
+    height: 16px;
+}
+
+/* date-cvc */
+.date-cvc {
+    display: flex;
+    justify-content: space-between;
+}
+
+#mm-yy {
+    width: 46%;
+}
+
+#cvc {
+    width: 46%;
+}
+
+/* checkbox-two */
+.check-two {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+/*  */
+#first-name,
+#last-name,
+#region,
+#email-address,
+#city,
+#province,
+#postal-code,
+#card-number,
+#mm-yy,
+#cvc {
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 12px;
+    /* background-color: #F8F8F8; */
+    font-size: 14px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+/*  */
+/*  */
+.sub-container-three {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px 0px 0px;
+}
+
+.sub-container-three a {
+    font-size: 12px;
+    color: black;
+    transition: transform 0.3s;
+}
+
+.sub-container-three a:hover {
+    transform: translateY(-5px);
+}
